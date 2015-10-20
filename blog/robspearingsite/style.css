@@ -1,0 +1,282 @@
+/*
+Theme Name: Rob Spearing Site
+Theme URI: http://robertspearing.co.uk/blog
+Description: Wordpress theme for robertspearing.co.uk
+Version: 1.0
+Author: Gwenan Spearing
+Author URI: http://about.me/gwenanspearing
+*/
+
+body{
+	background-color: gray;
+	background-image: url('../../../../bgimages/architecture_stairway.jpg');
+	background-repeat: no-repeat; 
+	background-attachment: fixed;  
+	text-align:center;
+	font-family:'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+	display:block;
+	}
+
+.page {
+margin: 0px auto;
+max-width: 960px;
+}
+
+.header{
+display:block;
+margin:0;
+padding:0;
+}
+
+/*.catmenu{
+display:block;
+float:left;
+margin:0;
+padding:0;
+max-width:230px;
+}*/
+
+.nav{
+	overflow: hidden;
+	vertical-align:bottom;
+}
+
+.nav li {
+	float:left;
+	margin:0;
+	margin-left: 5px;
+}
+/*
+.nav2 li {
+	float:none;
+	margin:0;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color:rgba(50,131,240,0.8);
+}*/
+
+.content {
+display:inline-block;
+margin:0px;
+background-color:rgba(231,244,240,0.8);
+overflow:auto;
+width: 960px; /*made width static for now*/
+
+}
+
+ul {
+list-style-type:none;
+display: inline-block;
+margin:0;
+padding:0;
+}
+li
+{
+/*display: inline-block;*/
+/*margin-left: auto;
+margin-right: auto;*/
+}
+
+
+.current-tab{
+	background-color:rgba(231,244,240,0.8);
+	}
+	
+a:link{
+color:#806600;
+font-weight:bold;
+}
+
+a:visited{
+color:
+}
+
+.header a:link
+{
+display:block;
+font-weight:bold;
+color:#244236;
+background-color:rgba(142,215,185, 0.8);
+text-align:center;
+padding:20px;
+margin:0px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.header a:visited
+{
+display:block;
+font-weight:bold;
+color:#244236;
+text-align:center;
+padding:20px;
+margin:0px;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+/*#header .nav .li a:link
+{
+display:block;
+font-weight:bold;
+color:#244236;
+background-color:rgba(142,215,185, 0.8);
+text-align:center;
+padding:20px;
+margin:0px;
+text-decoration:none;
+text-transform:uppercase;
+}*/
+
+h1{
+font-family:'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+color:#000000;
+font-size:300%;
+
+}
+
+h2{
+color: #000000;
+font-size:150%;
+margin-top:8px;
+margin-bottom:10px;
+}
+
+h3{
+color:	#993d00;
+font-size:150%;
+margin-top:8px;
+margin-bottom:0;
+}
+
+.date{
+color:#555555;
+font-size:80%;
+}
+
+.posted{
+color:#555555;
+font-size:80%;
+margin-top: 5px;
+margin-bottom: 8px;
+}
+
+.text {
+float: right;
+text-align:left;
+padding: 20px 30px 40px 20px;
+margin:0 0;
+display: inline-block;
+width:66%;
+border-left: 2px solid #bbb;
+
+}
+.text100 {
+float: left;
+text-align:left;
+
+padding: 2% 5%;
+margin: 0px 0px 20px 0px;
+display: inline-block;
+width:90%;
+}
+
+.blogpost{
+border-bottom: 2px solid #bbb; /*added in theme stylesheet only*/
+height:100%;
+}
+
+.sidebar{
+float: left;
+padding:20px 10px 20px 20px;
+margin: 0;
+width: 25%;
+font-size:100%;
+text-align: left;
+
+
+}
+
+.welcome{
+max-width:95%;
+margin-top: 10px;
+}
+
+.intro {
+float: left;
+text-align:left;
+padding: 0 0;
+display: inline-block;
+width:50%;
+margin: 140px 50px 120px 100px;
+font-size:110%;
+text-align:center;
+
+border-top-style: solid;
+border-bottom-style: solid;
+border-color: #806600;
+/*background-color:rgba(255,255,255,0.5);*/
+}
+
+.question{
+color:#806600;
+font-style:italic;
+font-weight:bold;
+}
+
+.cat {
+float: right;
+text-align:left;
+padding: 0 2%;
+display: inline-block;
+width:70%;
+}
+
+.figure{
+float: left;
+padding:50px 20px;
+margin: 0;
+width: 25%;
+font-size:80%;
+text-align: right;
+
+}
+
+.figureL{
+float: left;
+padding:50px 10px 50px 30px;
+margin: 0;
+width: 25%;
+font-size:80%;
+text-align: right;
+
+}
+
+.footer{
+padding-top:20px;
+font-size:80%;
+}
+
+@media screen and (max-width: 425px) { 
+  .nav li {    
+  
+  float: none;    
+  margin: 0;    
+  padding: 2px 0;    
+  text-align: center;  } 
+  } 
+
+ 
+  @media screen and (max-width: 960px) { 
+	.content{
+	max-width:650px;
+	}  
+	.text{
+	width:96%;
+	float:none;
+	}
+	.figure{
+	float: none;
+	}
+  } 
